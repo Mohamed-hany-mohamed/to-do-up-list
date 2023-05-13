@@ -17,11 +17,14 @@
 
 /*input start  */
 .section{
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 50px;
     height: 70vh;
-    width: 100%;
+    width: 70%;
     border: 2px solid rgb(255, 255, 255);
     overflow: auto;
+    
     
   
 }.input{
@@ -160,8 +163,21 @@
 }
 /* end */
 
-
-@media only screen and (min-width: 0px)and (max-width: 500px){
+@media only screen and (min-width: 700px)and (max-width: 1000px){
+    .section{
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+        height: 70vh;
+        width: 80%;
+        border: 2px solid rgb(255, 255, 255);
+        overflow: auto;
+        
+        
+      
+    }
+}
+@media only screen and (min-width: 0px)and (max-width: 700px){
   .section{
         margin-top: 100px;
         height: 50vh;
